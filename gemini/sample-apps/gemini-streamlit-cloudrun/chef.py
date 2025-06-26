@@ -86,6 +86,7 @@ wine = st.selectbox(
     index=0
 )
 
+
 # Prompt personalizado con la variable wine incluida
 prompt = f"""I am a Chef.  I need to create {cuisine} \n
 recipes for customers who want {dietary_preference} meals. \n
@@ -103,6 +104,7 @@ Then include the wine paring for each recommendation.
 At the end of the recommendation provide the calories associated with the meal
 and the nutritional facts.
 """
+
 
 # configure the generation parameters
 config = GenerateContentConfig(
